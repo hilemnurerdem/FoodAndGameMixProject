@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Yemek Ekle -->
+    <item
+        android:id="@+id/menu_add_food"
+        android:title="Yemek Ekle" />
+
+    <!-- Oyun -->
+    <item
+        android:id="@+id/menu_game"
+        android:title="Oyun" />
+</menu>

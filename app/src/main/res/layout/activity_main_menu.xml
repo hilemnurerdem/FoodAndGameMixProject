@@ -1,0 +1,75 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/yemekListesiBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yemek Listesi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:background="@color/design_default_color_error"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Bakla Dolması -->
+    <TextView
+        android:id="@+id/baklaDolmasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bakla Dolması"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="#8BC34A"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Haşhaşlı Katmer -->
+    <TextView
+        android:id="@+id/hashasliKatmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Haşhaşlı Katmer"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="#8BC34A"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Merzifon Keşkeği -->
+    <TextView
+        android:id="@+id/merzifonKeskegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merzifon Keşkeği"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="#8BC34A"
+        android:clickable="true"
+        android:focusable="true" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/foodListLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp" />
+
+    </ScrollView>
+
+</LinearLayout>
+
+

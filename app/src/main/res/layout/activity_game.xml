@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/black"
+    android:gravity="center">
+
+    <!-- Karışık Harfler -->
+    <TextView
+        android:id="@+id/shuffledTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="karışık harfler"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Kullanıcı Girişi -->
+    <EditText
+        android:id="@+id/userInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kelimeyi tahmin et"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Kontrol Et Butonu -->
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kontrol Et"
+        android:background="#390C89"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+
+
+</LinearLayout>
